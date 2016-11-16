@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Samir Khoulani
+Samir_khoulani@student.uml.edu
+11/15/16
+HW7
+The purpose of this website is to add validation cababilities to HW6.
+-->
+<html lang="en">
+
+    <head>
+
+        <title>Multiplication Table - HW6</title>
+
+        <meta charset="utf-8">
+
+        <link href="style.css" rel="stylesheet">
+
+        <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="crossorigin="anonymous"></script>
+        <script src="jquery.validate.js"></script>
+    </head>
+
+    <body>
+
+        <script src="script.js"></script>
+
+        <header>Samir's Multiplication Table</header>
+
+        <p> Please enter four positive numbers. Decimal numbers will always be rounded down to the nearest whole number. </p>
+
+        <form id="form">
+            <input type="text" id="horbegin" name="horbegin" placeholder="Horizontal Begin" class="required" value=1>
+
+            <br>
+
+            <input type="text" id="horend" name="horend" placeholder="Horizontal End" class="required" value=5>
+
+            <br>
+
+            <input type="text" id="vertbegin" name="vertbegin" placeholder="Vertical Begin" class="required" value=1>
+
+            <br>
+
+            <input type="text" id="vertend" name="vertend" placeholder="Vertical End" class="required" value=5>
+
+            <br>
+
+            <input type="submit" id="btn"/>
+
+        </form>
+
+        <br>
+
+
+        <br>
+
+    </body>
+
+</html>
